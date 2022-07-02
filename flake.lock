@@ -69,11 +69,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1656298214,
-        "narHash": "sha256-HtCmijl4rA50syUpqjZUGRGJ/ocYRJkrFaC9mT/60Fw=",
+        "lastModified": 1656301365,
+        "narHash": "sha256-gVyeX0nmz/XZ89UFpeQj6s/BiJk623HdrGkCwRO4BqU=",
         "owner": "nim-nix-pkgs",
         "repo": "xio",
-        "rev": "c823a74fdb8f008defa93006b379fbd715c8a406",
+        "rev": "34c2cc4e977bde212c63e4acc639332fa367b4de",
         "type": "github"
       },
       "original": {
