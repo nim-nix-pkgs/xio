@@ -23,11 +23,11 @@
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1662096612,
-        "narHash": "sha256-R+Q8l5JuyJryRPdiIaYpO5O3A55rT+/pItBrKcy7LM4=",
+        "lastModified": 1667110639,
+        "narHash": "sha256-4FbPESZ5LbqQxkJJJBAfk/zKgF9h/4kyUwjjpJwYlbc=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "21de2b973f9fee595a7a1ac4693efff791245c34",
+        "rev": "f38a1f04d1bec1feb61fd101a0539ae2002a7087",
         "type": "github"
       },
       "original": {
@@ -38,7 +38,52 @@
     "root": {
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
-        "nixpkgs": "nixpkgs"
+        "nixpkgs": "nixpkgs",
+        "xio-master": "xio-master"
+      }
+    },
+    "src-xio-master": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1599828157,
+        "narHash": "sha256-DZ+dFsyQXsbn57fGqA5/B1bQS1vyH2L/p5tAPWn0rns=",
+        "owner": "ringabout",
+        "repo": "xio",
+        "rev": "c30500381d04672c38bc71a27a053fd5fedea0c3",
+        "type": "github"
+      },
+      "original": {
+        "owner": "ringabout",
+        "ref": "refs/heads/master",
+        "repo": "xio",
+        "type": "github"
+      }
+    },
+    "xio-master": {
+      "inputs": {
+        "flakeNimbleLib": [
+          "flakeNimbleLib"
+        ],
+        "nixpkgs": [
+          "nixpkgs"
+        ],
+        "src-xio-master": "src-xio-master"
+      },
+      "locked": {
+        "dir": "master",
+        "lastModified": 1665581749,
+        "narHash": "sha256-KIMeNM4XEVYQVAZFIaNi51NSgkp1mMGEa3Mbz/wDlq0=",
+        "owner": "nim-nix-pkgs",
+        "repo": "xio",
+        "rev": "b2b372f5911e51d2135bcb46d4716c14bb111883",
+        "type": "github"
+      },
+      "original": {
+        "dir": "master",
+        "owner": "nim-nix-pkgs",
+        "ref": "master",
+        "repo": "xio",
+        "type": "github"
       }
     }
   },
